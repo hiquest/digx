@@ -1,14 +1,15 @@
 {
   "name": "digx",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Take a nested object and dig values by path",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["functional", "dig"],
+  "author": "Ianis Triandafilov",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.2.0",
