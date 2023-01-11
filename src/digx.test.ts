@@ -29,7 +29,7 @@ test("throws an exception when path is wrong and shouldThrow is true", () => {
   expect(() => dg({ param: [] }, "param[1].test", true)).toThrow();
 });
 
-test("works tranparently with Sets and Maps", () => {
+test("works transparently with Sets and Maps", () => {
   const source = new Map([
     ["param", new Set()],
     ["innerSet", new Set([new Map(), new Map([["innerKey", "value"]])])],
